@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAQUETA WEB </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="backgroundCanvas"></canvas>
+    
+ 
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>MAQUE<span>TA</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+ 
+    <section id="inicio" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="main-title">Optimiza tu sistema</h1>
+                
+                <div class="subtitle-container">
+                    <h2 class="subtitle">
+                        <span class="highlight-text">SOPORTE</span> 
+                        <span class="normal-text">TÉCNICO</span> + 
+                        <span class="highlight-text">CONFIGURACIÓN</span> 
+                        <span class="normal-text">EXPERTA</span>
+                    </h2>
+                    <div class="underline"></div>
+                </div>
+
+                <p class="description">
+                    Te ayudamos a configurar y optimizar tus sistemas con soluciones personalizadas, 
+                    siempre poniendo la experiencia del usuario en el centro.
+                </p>
+
+               
+                <div class="phrase-carousel">
+                    <div class="phrase-container">
+                        <div class="phrase-text" id="phraseText">
+                            Optimizando tu experiencia tecnológica
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="chat-container">
+                    <div class="chat-messages" id="chatMessages">
+                     
+                    </div>
+                    
+                    <div class="chat-input-wrapper">
+                        <input 
+                            type="text" 
+                            id="chatInput" 
+                            placeholder="¿Cómo Config Lab puede ayudarte a optimizar tu sistema?"
+                            class="chat-input"
+                        >
+                        <button id="sendButton" class="send-button">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Optimización de Sistema</h3>
+                    <p>Mejoramos el rendimiento de tu PC eliminando archivos innecesarios y optimizando configuraciones.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Seguridad & Antivirus</h3>
+                    <p>Protegemos tu sistema contra malware, virus y amenazas de seguridad con las mejores herramientas.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Reparación de Hardware</h3>
+                    <p>Diagnosticamos y reparamos problemas de hardware, desde componentes hasta periféricos.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>Instalación de Software</h3>
+                    <p>Instalamos y configuramos programas, drivers y aplicaciones según tus necesidades específicas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="nosotros" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre Config Lab</h2>
+                    <div class="title-underline"></div>
+                    
+                    <p class="about-description">
+                        Config Lab nace de la pasión por la tecnología y el deseo de ayudar a las personas 
+                        a sacar el máximo provecho de sus sistemas. Fundado por Agustín Gibaut, nos especializamos 
+                        en brindar soluciones técnicas personalizadas y accesibles.
+                    </p>
+
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Sistemas Optimizados</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Años de Experiencia</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Soporte Disponible</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-profile">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Agustín Gibaut</h3>
+                        <p class="profile-title">Fundador & Especialista Técnico</p>
+                        
+                        <div class="profile-skills">
+                            <div class="skill-tag">Windows</div>
+                            <div class="skill-tag">Linux</div>
+                            <div class="skill-tag">Hardware</div>
+                            <div class="skill-tag">Redes</div>
+                            <div class="skill-tag">Seguridad</div>
+                            <div class="skill-tag">Optimización</div>
+                        </div>
+
+                        <div class="profile-contact">
+                            <a href="tel:3512580435" class="contact-btn">
+                                <i class="fas fa-phone"></i>
+                                3512580435
+                            </a>
+                            <a href="mailto:agusgibaut693@gmail.com" class="contact-btn">
+                                <i class="fas fa-envelope"></i>
+                                Email
+                            </a>
+                            <a href="https://github.com/AgustinGibaut" target="_blank" class="contact-btn">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="expertise-section">
+                <h3 class="expertise-title">Áreas de Especialización</h3>
+                <div class="expertise-grid">
+                    <div class="expertise-item">
+                        <i class="fab fa-windows"></i>
+                        <h4>Sistemas Windows</h4>
+                        <p>Configuración, optimización y resolución de problemas en todos los sistemas Windows.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fab fa-linux"></i>
+                        <h4>Distribuciones Linux</h4>
+                        <p>Instalación, configuración y soporte para las principales distribuciones de Linux.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-network-wired"></i>
+                        <h4>Redes & Conectividad</h4>
+                        <p>Configuración de redes domésticas, WiFi, y solución de problemas de conectividad.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-database"></i>
+                        <h4>Recuperación de Datos</h4>
+                        <p>Recuperación de archivos perdidos y backup de información importante.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>CONFIG<span>LAB</span></h3>
+                    <p>Optimizando sistemas, mejorando experiencias.</p>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2024 Config Lab. Todos los derechos reservados.</p>
+                    <p>Desarrollado por Agustín Gibaut</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
